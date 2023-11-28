@@ -1,0 +1,31 @@
+2023/11/28 16:13:19 Started server at port: 5557
+ lamport: 1
+2023/11/28 16:18:12 Error sending heartbeat: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:5555: connect: connection refused"
+2023/11/28 16:18:12 Trying to connect to nextnext node
+2023/11/28 16:18:12 Sending vote request to next node
+ lamport: 4
+2023/11/28 16:18:12 Received vote request from 5557
+ lamport: 7
+2023/11/28 16:18:12 I am the leader
+2023/11/28 16:18:12 Received vote response from next node
+ lamport: 9
+2023/11/28 16:18:20 Started server at port: 5557
+ lamport: 1
+2023/11/28 16:18:41 Received vote request from 5556
+ lamport: 4
+2023/11/28 16:18:41 I could be the leader
+2023/11/28 16:18:41 Sending vote request to next node
+ lamport: 5
+2023/11/28 16:18:41 Received vote request from 5557
+ lamport: 10
+2023/11/28 16:18:41 I am the leader
+2023/11/28 16:18:41 Received vote response from next node
+ lamport: 13
+2023/11/28 16:18:59 Received bid request from Bella
+ lamport: 13
+2023/11/28 16:19:03 Received bid request from Bella
+ lamport: 20
+2023/11/28 16:19:15 Received bid request from Ole
+ lamport: 24
+2023/11/28 16:19:19 Received ask for price request from Bella
+ lamport: 28

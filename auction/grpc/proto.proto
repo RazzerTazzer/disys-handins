@@ -1,0 +1,81 @@
+syntax = "proto3";
+package auction;
+
+option go_package = "grpc/proto";
+
+
+//for election of leader and heartbeat
+message ElectionMessage {
+  int64 id = 1;
+  int64 timestamp = 2;
+}
+message ElectionResponse {
+    bool ok = 1;
+    int64 timestamp = 2;
+
+}
+service Election {
+    rpc RequestVote(ElectionMessage) returns (ElectionResponse);
+}
+
+//for heartbeat
+service HeartbeatService {
+  rpc Heartbeat(HeartbeatRequest) returns (HeartbeatResponse);
+}
+
+message HeartbeatRequest {}
+
+message HeartbeatResponse {}
+
+
+//for the auction 
+message askForPriceMessage {
+    int64 timestamp = 1;
+    string name = 2;
+}
+
+message askForPriceResponse {
+    int64 price = 1;
+    int64 timestamp = 2;
+    bool active = 3;   
+}   
+
+message bidMessage {
+    int64 bid = 1;
+    string name = 2;
+    int64 timestamp = 3;
+}
+
+message bidResponse {
+    bool ok = 1;
+    int64 timestamp = 2;
+}
+
+message askForResultMessage {
+    int64 timestamp = 1;
+    string name = 2;
+}
+
+message askForResultResponse {
+    int64 timestamp = 1;
+    string name = 2;
+    int64 price = 3;
+}   
+
+service Auction {
+    rpc Bid(bidMessage) returns (bidResponse);
+    rpc AskForPrice(askForPriceMessage) returns (askForPriceResponse);
+    rpc AskForResult(askForResultMessage) returns (askForResultResponse);
+}   
+
+//for after the auction
+message resultMessage { 
+    int64 timestamp = 1;
+    string name = 2;
+    int64 price = 3;
+}
+
+message resultResponse {
+    int64 price = 1;
+    int64 timestamp = 2;
+}

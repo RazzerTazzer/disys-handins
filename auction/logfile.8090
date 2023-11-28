@@ -1,0 +1,29 @@
+2023/11/28 16:19:10 Connected to the server at port: 5557
+ Timestamp: 1
+2023/11/28 16:19:12 Enter your bid:
+2023/11/28 16:19:15 Placing bid: 250
+2023/11/28 16:19:15 Successfully made a bid
+ Timestamp: 29
+2023/11/28 16:19:30 Asking for the current bid 
+ Timestamp: 30
+2023/11/28 16:19:30 Error asking for result: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:5557: connect: connection refused"
+2023/11/28 16:19:30 Error sending heartbeat: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:5557: connect: connection refused"
+2023/11/28 16:19:30 Trying to connect to the next node
+2023/11/28 16:19:30 Connected to the server at port: 5556
+ Timestamp: 31
+2023/11/28 16:19:37 Asking for the current bid 
+ Timestamp: 32
+2023/11/28 16:19:37 The auction is still going on and the current bid: 250
+ Timestamp: 36
+2023/11/28 16:19:41 Enter your bid:
+2023/11/28 16:19:43 Placing bid: 300
+2023/11/28 16:19:43 Successfully made a bid
+ Timestamp: 44
+2023/11/28 16:20:03 Enter your bid:
+2023/11/28 16:20:03 Placing bid: 50
+2023/11/28 16:20:03 Successfully made a bid
+ Timestamp: 51
+2023/11/28 16:20:10 Asking for the current bid 
+ Timestamp: 52
+2023/11/28 16:20:10 The auction is over and ended on the price: 450
+ Timestamp: 53
