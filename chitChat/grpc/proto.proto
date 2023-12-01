@@ -1,0 +1,19 @@
+syntax = "proto3";
+package chitChat;
+
+option go_package = "grpc/proto";
+
+import "google/protobuf/empty.proto";
+
+message ChatMessage {
+  string content = 1;
+  int64 timestamp = 2;
+  string username = 3;
+  int32 port = 4;
+}
+
+service ChatService {
+  rpc SendMessage(ChatMessage) returns (google.protobuf.Empty);
+  rpc ReceiveMessage(ChatMessage) returns (stream ChatMessage);
+  rpc LeaveChat(ChatMessage) returns (ChatMessage);
+}
