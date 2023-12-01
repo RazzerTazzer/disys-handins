@@ -1,1 +1,43 @@
-2023/12/01 14:20:23 Started server at port: 5454
+2023/12/01 14:35:53 Started server at port: 5454
+2023/12/01 14:35:58 Received message: Ole has joined the chat
+2023/12/01 14:35:58 Timestamp: 1
+2023/12/01 14:36:02 Received message: Tinder has joined the chat
+2023/12/01 14:36:02 Timestamp: 1
+2023/12/01 14:36:02 Key: 2020 Value: &{0xc0001c40f0}
+2023/12/01 14:36:02 Message sent with timestamp: 4
+2023/12/01 14:36:02 Key: 8000 Value: &{0xc0001c4000}
+2023/12/01 14:36:02 Message sent with timestamp: 5
+2023/12/01 14:36:07 Received message: Sisse has joined the chat
+2023/12/01 14:36:07 Timestamp: 1
+2023/12/01 14:36:07 Key: 8000 Value: &{0xc0001c4000}
+2023/12/01 14:36:07 Message sent with timestamp: 7
+2023/12/01 14:36:07 Key: 2020 Value: &{0xc0001c40f0}
+2023/12/01 14:36:07 Message sent with timestamp: 8
+2023/12/01 14:36:12 Received message: Hey guys
+2023/12/01 14:36:12 Timestamp: 2
+2023/12/01 14:36:12 Key: 8000 Value: &{0xc0001c4000}
+2023/12/01 14:36:12 Message sent with timestamp: 10
+2023/12/01 14:36:12 Key: 2020 Value: &{0xc0001c40f0}
+2023/12/01 14:36:12 Message sent with timestamp: 11
+2023/12/01 14:36:12 Key: 3212 Value: &{0xc000230000}
+2023/12/01 14:36:12 Message sent with timestamp: 12
+2023/12/01 14:36:22 Received message: okay im done, bye
+2023/12/01 14:36:22 Timestamp: 13
+2023/12/01 14:36:22 Key: 8000 Value: &{0xc0001c4000}
+2023/12/01 14:36:22 Message sent with timestamp: 15
+2023/12/01 14:36:22 Key: 2020 Value: &{0xc0001c40f0}
+2023/12/01 14:36:22 Message sent with timestamp: 16
+2023/12/01 14:36:22 Key: 3212 Value: &{0xc000230000}
+2023/12/01 14:36:22 Message sent with timestamp: 17
+2023/12/01 14:36:24 Received message: Tinder has left the chat
+2023/12/01 14:36:24 Timestamp: 19
+2023/12/01 14:36:24 Key: 8000 Value: &{0xc0001c4000}
+2023/12/01 14:36:24 Message sent with timestamp: 21
+2023/12/01 14:36:24 Key: 3212 Value: &{0xc000230000}
+2023/12/01 14:36:24 Message sent with timestamp: 22
+2023/12/01 14:36:45 Received message: okay that was quick, bye bye
+2023/12/01 14:36:45 Timestamp: 23
+2023/12/01 14:36:45 Key: 8000 Value: &{0xc0001c4000}
+2023/12/01 14:36:45 Message sent with timestamp: 25
+2023/12/01 14:36:45 Key: 3212 Value: &{0xc000230000}
+2023/12/01 14:36:45 Message sent with timestamp: 26
