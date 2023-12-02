@@ -1,0 +1,37 @@
+syntax = "proto3";
+package mutal;
+
+option go_package = "grpc/proto";
+
+message ElectionMessage {
+  int64 id = 1;
+  int64 timestamp = 2;
+}
+message ElectionResponse {
+    bool ok = 1;
+}
+
+
+message AccessMessage {
+  int64 id = 1;
+  int64 timestamp = 2;
+
+}
+
+message AccessResponse {
+    bool ok = 1;
+}
+
+
+service Election {
+    rpc RequestVote(ElectionMessage) returns (ElectionResponse);
+}
+
+service Access {
+    rpc RequestAccess(AccessMessage) returns (AccessResponse);
+    rpc ReleaseAccess(AccessMessage) returns (AccessResponse);
+    rpc GetAccess(AccessMessage) returns (AccessResponse);
+}
+
+
+

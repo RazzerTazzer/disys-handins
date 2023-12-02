@@ -1,0 +1,12 @@
+2023/12/02 12:55:01 Started server at port: 5557
+2023/12/02 12:55:23 Timestamp: 5 - Received vote request from 5556
+2023/12/02 12:55:23 Timestamp: 5 - I could be the leader
+2023/12/02 12:55:23 Timestamp: 6 - Sending vote request to the next node
+2023/12/02 12:55:23 Timestamp: 11 - Received vote request from 5557
+2023/12/02 12:55:23 Timestamp: 11 - I am the leader
+2023/12/02 12:56:01 Timestamp: 12 - Access requested by 5555
+2023/12/02 12:56:04 Timestamp: 15 - Access requested by 5556
+2023/12/02 12:56:09 Timestamp: 16 - Access requested by 5555
+2023/12/02 12:56:11 Timestamp: 17 - Access released by 5555
+2023/12/02 12:56:21 Timestamp: 20 - Access released by 5556
+2023/12/02 12:56:42 Timestamp: 25 - Access released by 5555
